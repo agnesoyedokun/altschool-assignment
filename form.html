@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+      <meta charst="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AltSchool Application Form</title>
+</head>
+
+<body>
+
+    <!-- Global Navigation-->
+     <header id="top">
+        <nav aria-label="Main navigation">
+            <a href="index.html">About Me</a>
+            <a href="form.html" aria-current="page">Application Form</a>
+        </nav>
+        <h1>AltSchool Africa Application Form</h1>
+        
+        <p>
+              Fill in your details below to apply to AltSchool Africa.
+        </p>
+     </header>
+     <hr>
+     <main>
+            <form action="#" method="post">
+                <!-- PERSONAL INFORMATION-->
+                 <fieldset>
+                     <legend>Personal Information</legend>
+                     <p>
+                         <label for="first-name">First name:</label><br>
+                        <input
+                            type="text"
+                            id="First-name"
+                            name="First-name"
+                            autocomplete="family-name"
+                            required
+                    >
+                        </p>
+                        <p>
+                        <label for="Last-name">Last Name:</label><br>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            autocomplete="family-name"
+                            required
+                        >
+                     </p>
+                     <p>
+                         <label for="email">Email Address:</label><br>
+                         <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+                    <p>
+                        <label for="phone">Phone Nmber:</label><br>
+                        <input
+                           type="tel"
+                           id="phone"
+                           name="phone"
+                           autocomplete="tel"
+                           required
+                        >
+                         </p> 
+                    </fieldset>
+                     <br> 
+            
+                     <fieldset>
+                         <label for="school">School:</label><br>
+
+                    <select id="school" name="school" required>
+                        <option value="">
+                            Select a school
+                        </option>
+
+                        <option value="engineering">
+                            School of Engineering
+                        </option>
+
+                        <option value="product">
+                            School of Product
+                        </option>
+
+                        <option value="data">
+                            School of Data
+                        </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="track">Track:</label><br>
+
+                    <select id="track" name="track" required>
+                        <option value="">
+                            Select your track
+                        </option>
+
+                        <option value="frontend">
+                            Frontend Engineering
+                        </option>
+
+                        <option value="backend">
+                            Backend Engineering
+                        </option>
+
+                        <option value="cloud">
+                            Cloud Engineering
+                        </option>
+                    </select>
+                </p>
+
+                       </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Educational Background</legend>
+
+                <p>
+                    <label for="education">
+                        Highest Level of Education:
+                    </label><br>
+
+                    <select
+                        id="education"
+                        name="education"
+                        required
+                    >
+                        <option value="">
+                            Select an option
+                        </option>
+
+                        <option value="secondary">
+                            Secondary School
+                        </option>
+
+                        <option value="ond">
+                            OND
+                        </option>
+
+                        <option value="hnd">
+                            HND
+                        </option>
+
+                        <option value="bachelors">
+                            Bachelor's Degree
+                        </option>
+
+                        <option value="masters">
+                            Master's Degree
+                        </option>
+
+                        <option value="phd">
+                            PhD
+                        </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="institution">
+                        Name of Institution:
+                    </label><br>
+
+                    <input
+                        type="text"
+                        id="institution"
+                        name="institution"
+                    >
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>About Your Application</legend>
+
+                <p>
+                    <label for="why-alt-school">
+                        Why do you want to join AltSchool Africa?
+                    </label><br>
+
+                    <textarea
+                        id="why-alt-school"
+                        name="why-alt-school"
+                        rows="6"
+                        cols="50"
+                        required
+                    ></textarea>
+                </p>
+
+                <p>
+                    <label for="goals">
+                        What are your goals for the program?
+                    </label><br>
+
+                    <textarea
+                        id="goals"
+                        name="goals"
+                        rows="6"
+                        cols="50"
+                        required
+                    ></textarea>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Confirmation</legend>
+
+                <p>
+                    <input
+                        type="checkbox"
+                        id="confirmation"
+                        name="confirmation"
+                        required
+                    >
+
+                    <label for="confirmation">
+                        I confirm that the information I have provided
+                        is correct.
+                    </label>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">
+                Submit Application
+            </button>
+
+            <button type="reset">
+                Reset
+            </button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>
+            <a href="#top">Back to Top</a>
+        </p>
+
+        <address>
+            Agnes Tioluwanimi Oyedokun<br>
+            Ibadan, Nigeria
+        </address>
+
+      <p>&copy 2026 Agnes Tioluwanimi Oyedokun,
+            AltSchool: School of Engineering.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
